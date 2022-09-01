@@ -7,8 +7,8 @@
     margin: 0;
 }
 
-html {
-    background: url(../img/bg.png);
+.cover__bg {
+    background: url(../img/bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     // background-position: top right;
@@ -17,6 +17,17 @@ html {
     height: 100vh;
     width: 100%;
 }
+
+// html {
+//     background: url(../img/bg.png);
+//     background-position: center center;
+//     background-repeat: no-repeat;
+//     // background-position: top right;
+//     position: fixed;
+//     background-size: cover;
+//     height: 100vh;
+//     width: 100%;
+// }
 
 body {
     font-family: $body-font;
